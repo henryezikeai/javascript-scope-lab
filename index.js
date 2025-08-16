@@ -1,14 +1,14 @@
 // Write your solution in this file!
 
-let burgers = ['Hamburger', 'Cheeseburger']
+const burgers = ['Hamburger', 'Cheeseburger']
 let featuredDrink = 'Strawberry Milkshake'
 
-function newBurger(){
-    let newBurger = 'Flatburger'
+function addBurger(){
+    const newBurger = 'Flatburger'
     burgers.push(newBurger)
 }
 
-if (true) {
+if (1 > 0) {
     anothernewBurger = 'Maple Bacon Burger'
     burgers.push(anothernewBurger)
 }
